@@ -1,10 +1,11 @@
 source "https://rubygems.org"
+ruby "2.3.0"
 
-gem "rails", "~> 4.2.3"
+gem "rails"
 gem "pg"
 gem "pghero"
 gem "pg_query"
 gem "aws-sdk"
 gem "chartkick"
 gem "puma"
-gem "rails_12factor", "~> 0.0.3"
+gem "rails_12factor"
