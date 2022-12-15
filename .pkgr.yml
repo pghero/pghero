@@ -1,25 +1,5 @@
 default_dependencies: false
 targets:
-  ubuntu-22.04:
-    dependencies:
-      - libpq5
-      - libxml2
-      - libxslt1.1
-  ubuntu-20.04:
-    dependencies:
-      - libpq5
-      - libxml2
-      - libxslt1.1
-  ubuntu-18.04:
-    dependencies:
-      - libpq5
-      - libxml2
-      - libxslt1.1
-  debian-11:
-    dependencies:
-      - libpq5
-      - libxml2
-      - libxslt1.1
   centos-7:
     dependencies:
       - libxml2
@@ -33,3 +13,6 @@ targets:
       - libxml2
       - libxslt
       - postgresql93
+    before:
+      - cp gemfiles/centos7.gemfile Gemfile
+      - cp gemfiles/centos7.gemfile.lock Gemfile.lock
