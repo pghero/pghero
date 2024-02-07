@@ -167,18 +167,18 @@ GEM
       timeout
     net-smtp (0.4.0)
       net-protocol
-    nio4r (2.6.1)
-    nokogiri (1.15.5)
+    nio4r (2.7.0)
+    nokogiri (1.16.2)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     os (1.1.4)
     pg (0.21.0)
     pg_query (2.2.1)
       google-protobuf (>= 3.19.2)
-    pghero (3.4.0)
+    pghero (3.4.1)
       activerecord (>= 6)
     public_suffix (5.0.4)
-    puma (6.4.0)
+    puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.7.3)
     rack (2.2.8)
@@ -259,7 +259,7 @@ DEPENDENCIES
   google-apis-monitoring_v3
   pg (< 1)
   pg_query (~> 2)
-  pghero (= 3.4.0)
+  pghero (= 3.4.1)
   puma
   rails (~> 6.0.0)
   sprockets-rails

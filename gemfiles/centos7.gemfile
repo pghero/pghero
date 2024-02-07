@@ -5,7 +5,7 @@ ruby "3.1.2"
 gem "rails", "~> 6.0.0"
 gem "sprockets-rails"
 gem "pg", "< 1"
-gem "pghero", "3.4.0"
+gem "pghero", "3.4.1"
 gem "pg_query", "~> 2"
 gem "puma"
 gem "activerecord-nulldb-adapter", require: false

@@ -5,7 +5,7 @@ ruby "3.1.4"
 gem "rails", "~> 7.0.0"
 gem "sprockets-rails"
 gem "pg"
-gem "pghero", "3.4.0" # also update gemfiles/centos7.gemfile
+gem "pghero", "3.4.1" # also update gemfiles/centos7.gemfile
 gem "pg_query", "~> 2"
 gem "google-protobuf", force_ruby_platform: true
 gem "puma"
