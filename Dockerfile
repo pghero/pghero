@@ -13,7 +13,7 @@ WORKDIR $INSTALL_PATH
 
 COPY . .
 
-RUN apk add --update build-base gcompat git libpq-dev && \
+RUN apk add --update build-base gcompat git libpq-dev jemalloc && \
     gem install bundler && \
     bundle install && \
     bundle binstubs --all && \
@@ -21,6 +21,9 @@ RUN apk add --update build-base gcompat git libpq-dev && \
     rm -rf tmp && \
     apk del build-base git && \
     rm -rf /var/cache/apk/*
+
+ENV LD_PRELOAD=/usr/lib/libjemalloc.so.2
+ENV MALLOC_CONF='abort_conf:true,narenas:2,background_thread:true,thp:never,dirty_decay_ms:1000,muzzy_decay_ms:0'
 
 ENV PORT 8080
 
