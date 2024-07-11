@@ -197,8 +197,8 @@ GEM
     pg (1.5.6)
     pg_query (2.2.1)
       google-protobuf (>= 3.19.2)
-    pghero (3.5.0)
-      activerecord (>= 6)
+    pghero (3.6.0)
+      activerecord (>= 6.1)
     public_suffix (5.0.5)
     puma (6.4.2)
       nio4r (~> 2.0)
@@ -285,7 +285,7 @@ DEPENDENCIES
   google-protobuf (< 4)
   pg
   pg_query (~> 2)
-  pghero (= 3.5.0)
+  pghero (= 3.6.0)
   puma
   rails (~> 7.0.0)
   sprockets-rails
