@@ -6,8 +6,8 @@ gem "rails", "~> 7.0.0"
 gem "sprockets-rails"
 gem "pg"
 gem "pghero", "3.6.0"
-gem "pg_query", "~> 2"
-gem "google-protobuf", "< 4", force_ruby_platform: true
+gem "pg_query", "~> 5"
+gem "google-protobuf", force_ruby_platform: true
 gem "puma"
 gem "activerecord-nulldb-adapter", require: false
 gem "tzinfo-data"
