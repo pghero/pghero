@@ -34,6 +34,7 @@ module PgHeroSolo
       mount PgHero::Engine, at: "/"
     end
 
+    config.load_defaults Rails::VERSION::STRING.to_f
     config.cache_classes = true
     config.eager_load = true
     config.log_level = :info
