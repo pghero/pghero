@@ -212,7 +212,7 @@ GEM
     pg (1.5.8)
     pg_query (5.1.0)
       google-protobuf (>= 3.22.3)
-    pghero (3.6.0)
+    pghero (3.6.1)
       activerecord (>= 6.1)
     psych (5.1.2)
       stringio
@@ -313,7 +313,7 @@ DEPENDENCIES
   google-protobuf
   pg
   pg_query (~> 5)
-  pghero (= 3.6.0)
+  pghero (= 3.6.1)
   puma
   rails (~> 7.2.0)
   sprockets-rails
