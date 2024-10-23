@@ -2,7 +2,8 @@ source "https://rubygems.org"
 
 ruby "3.3.5"
 
-gem "rails", "~> 7.2.0"
+# nulldb adapter does not support 7.2 yet
+gem "rails", "~> 7.1.0"
 gem "sprockets-rails"
 gem "pg"
 gem "pghero", "3.6.1"
