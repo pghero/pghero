@@ -1,16 +1,15 @@
 source "https://rubygems.org"
 
-ruby "3.3.5"
+ruby "3.3.6"
 
-# nulldb adapter does not support 7.2 yet
-gem "rails", "~> 7.1.0"
+gem "rails", "~> 8.0.0"
 gem "sprockets-rails"
 gem "pg"
 gem "pghero", "3.6.1"
 gem "pg_query", "~> 5"
 gem "google-protobuf", force_ruby_platform: true
 gem "puma"
-gem "activerecord-nulldb-adapter", require: false
+gem "activerecord-nulldb-adapter", ">= 1.1.1", require: false
 gem "tzinfo-data"
 
 # system stats
