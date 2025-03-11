@@ -1,4 +1,4 @@
-FROM ruby:3.3.6-alpine3.20
+FROM ruby:3.3.7-alpine3.20
 
 LABEL org.opencontainers.image.authors="Andrew Kane <andrew@ankane.org>"
 
@@ -12,7 +12,7 @@ WORKDIR $INSTALL_PATH
 
 COPY . .
 
-RUN apk add --update build-base gcompat git libpq-dev && \
+RUN apk add --update build-base gcompat git libpq-dev yaml-dev && \
     gem install bundler && \
     bundle install && \
     bundle binstubs --all && \
