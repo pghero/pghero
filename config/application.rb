@@ -16,10 +16,10 @@ require "rails"
 end
 
 unless ENV["DATABASE_URL"]
-  if File.exist?(PgHero.config_path)
+  if File.exist?(PgHero.config_path) || ENV["TARGET"]
     require "nulldb"
     ENV["DATABASE_URL"] = "nulldb:///"
-  elsif !ENV["TARGET"]
+  else
     abort "No DATABASE_URL or config/pghero.yml"
   end
 end
