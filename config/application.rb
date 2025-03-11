@@ -15,7 +15,7 @@ require "rails"
   end
 end
 
-unless ENV["DATABASE_URL"]
+unless ENV["DATABASE_URL"] || ENV["TARGET"]
   if File.exist?(PgHero.config_path)
     require "nulldb"
     ENV["DATABASE_URL"] = "nulldb:///"
