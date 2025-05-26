@@ -10,11 +10,6 @@ targets:
       - libpq5
       - libxml2
       - libxslt1.1
-  ubuntu-20.04:
-    dependencies:
-      - libpq5
-      - libxml2
-      - libxslt1.1
   debian-11:
     dependencies:
       - libpq5

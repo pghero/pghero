@@ -1,4 +1,4 @@
-FROM ruby:3.3.7-alpine3.20
+FROM ruby:3.3.8-alpine3.21
 
 LABEL org.opencontainers.image.authors="Andrew Kane <andrew@ankane.org>"
 

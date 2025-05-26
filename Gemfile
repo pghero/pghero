@@ -1,12 +1,12 @@
 source "https://rubygems.org"
 
-ruby "3.3.7"
+ruby "3.3.8"
 
 gem "rails", "~> 8.0.0"
 gem "sprockets-rails"
 gem "pg"
-gem "pghero", "3.6.2"
-gem "pg_query", "~> 5"
+gem "pghero", "3.7.0"
+gem "pg_query", "~> 6"
 gem "google-protobuf", force_ruby_platform: true
 gem "puma"
 gem "activerecord-nulldb-adapter", ">= 1.1.1", require: false
