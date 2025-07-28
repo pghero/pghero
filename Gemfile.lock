@@ -217,7 +217,7 @@ GEM
     nokogiri (1.18.9-x86_64-linux-gnu)
       racc (~> 1.4)
     os (1.1.4)
-    pg (1.5.9)
+    pg (1.6.0)
     pg_query (6.1.0)
       google-protobuf (>= 3.25.3)
     pghero (3.7.0)

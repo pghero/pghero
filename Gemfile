@@ -4,7 +4,7 @@ ruby "3.3.8"
 
 gem "rails", "~> 8.0.0"
 gem "sprockets-rails"
-gem "pg"
+gem "pg", force_ruby_platform: true
 gem "pghero", "3.7.0"
 gem "pg_query", "~> 6"
 gem "google-protobuf", force_ruby_platform: true
