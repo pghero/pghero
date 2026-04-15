@@ -1,15 +1,15 @@
 source "https://rubygems.org"
 
-ruby "3.3.11"
+ruby "4.0.2"
 
-gem "rails", "~> 8.0.0"
+gem "rails", "~> 8.1.0"
 gem "sprockets-rails"
 gem "pg", force_ruby_platform: true
-gem "pghero", "3.7.0"
+gem "pghero", "3.8.0"
 gem "pg_query", "~> 6"
 gem "google-protobuf", force_ruby_platform: true
 gem "puma"
-gem "activerecord-nulldb-adapter", ">= 1.1.1", require: false
+gem "activerecord-nulldb-adapter", ">= 1.2", require: false
 gem "tzinfo-data"
 
 # system stats
