@@ -105,7 +105,7 @@ GEM
     declarative (0.0.20)
     domain_name (0.6.20240107)
     drb (2.2.3)
-    erb (6.0.3)
+    erb (6.0.4)
     erubi (1.13.1)
     faraday (1.10.5)
       faraday-em_http (~> 1.0)
