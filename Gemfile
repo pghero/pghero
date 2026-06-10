@@ -16,3 +16,6 @@ gem "tzinfo-data"
 gem "aws-sdk-cloudwatch"
 gem "google-apis-monitoring_v3"
 gem "azure_mgmt_monitor"
+
+# https://github.com/googleapis/google-api-ruby-client/issues/26611
+gem "multi_json"
