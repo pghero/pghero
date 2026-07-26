@@ -15,7 +15,10 @@ gem "tzinfo-data"
 # system stats
 gem "aws-sdk-cloudwatch"
 gem "google-apis-monitoring_v3"
+
+# TODO remove in 4.0
 gem "azure_mgmt_monitor"
 
+# TODO remove in 4.0 once google-apis-monitoring_v3 can be upgraded
 # https://github.com/googleapis/google-api-ruby-client/issues/26611
 gem "multi_json"
