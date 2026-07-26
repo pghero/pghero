@@ -5,7 +5,6 @@ require "rails"
 require "active_record/railtie"
 require "action_controller/railtie"
 require "action_view/railtie"
-require "sprockets/railtie"
 
 unless ENV["DATABASE_URL"]
   if File.exist?(PgHero.config_path) || ENV["TARGET"]
@@ -31,6 +30,8 @@ module PgHeroSolo
     config.eager_load = true
     config.log_level = :info
     config.secret_key_base = ENV["SECRET_KEY_BASE"] || SecureRandom.hex(30)
+
+    # set RAILS_ENV in development, which enables config.assets.server in Propshaft
 
     config.public_file_server.enabled = ENV["RAILS_SERVE_STATIC_FILES"] != "disabled"
 

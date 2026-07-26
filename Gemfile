@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "4.0.6"
 
 gem "rails", "~> 8.1.0"
-gem "sprockets-rails"
+gem "propshaft"
 gem "pg", force_ruby_platform: true
 gem "pghero", "3.8.0"
 gem "pg_query", "~> 6"
