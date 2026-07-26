@@ -20,3 +20,6 @@ targets:
       - libpq5
       - libxml2
       - libxslt1.1
+
+# TODO remove when packager.io updates pkgr
+buildpack: https://github.com/pkgr/heroku-buildpack-ruby.git#v356-1
