@@ -1,10 +1,6 @@
 /.git
 /.dockerignore
-/.vagrant
-/gemfiles
-/log/
 /tmp/
 /.pkgr.yml
 /Dockerfile
 /Procfile
-/Vagrantfile
