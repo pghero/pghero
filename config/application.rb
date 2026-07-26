@@ -2,18 +2,10 @@ require "bundler/setup"
 Bundler.require
 
 require "rails"
-
-%w(
-  active_record/railtie
-  action_controller/railtie
-  action_view/railtie
-  sprockets/railtie
-).each do |railtie|
-  begin
-    require railtie
-  rescue LoadError
-  end
-end
+require "active_record/railtie"
+require "action_controller/railtie"
+require "action_view/railtie"
+require "sprockets/railtie"
 
 unless ENV["DATABASE_URL"]
   if File.exist?(PgHero.config_path) || ENV["TARGET"]
