@@ -5,7 +5,6 @@
 /log/
 /tmp/
 /.pkgr.yml
-/app.json
 /Dockerfile
 /Procfile
 /Vagrantfile
