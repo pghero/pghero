@@ -1,4 +1,1 @@
-log
-.vagrant
-tmp
-*.log
+/tmp/
