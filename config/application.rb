@@ -41,6 +41,11 @@ module PgHeroSolo
       config.logger = ActiveSupport::TaggedLogging.new(logger)
     end
 
+    # TODO enable in 4.0
+    config.active_record.query_log_tags_enabled = false
+    config.active_record.query_log_tags = [{application: "PgHero"}]
+    config.action_controller.log_query_tags_around_actions = false
+
     PgHero.show_migrations = ENV["PGHERO_SHOW_MIGRATIONS"]
     PgHero.time_zone = ENV["PGHERO_TZ"] if ENV["PGHERO_TZ"]
 
