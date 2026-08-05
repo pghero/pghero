@@ -1,6 +1,5 @@
 /.git
 /.dockerignore
 /tmp/
-/.pkgr.yml
 /Dockerfile
 /Procfile
