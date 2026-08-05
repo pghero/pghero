@@ -41,8 +41,7 @@ module PgHeroSolo
       config.logger = ActiveSupport::TaggedLogging.new(logger)
     end
 
-    # TODO enable in 4.0
-    config.active_record.query_log_tags_enabled = false
+    config.active_record.query_log_tags_enabled = true
     config.active_record.query_log_tags = [{application: "PgHero"}]
     config.action_controller.log_query_tags_around_actions = false
 
