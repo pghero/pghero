@@ -5,7 +5,7 @@ ruby "4.0.6"
 gem "rails", "~> 8.1.0"
 gem "propshaft"
 gem "pg", force_ruby_platform: true
-gem "pghero", "4.0.0"
+gem "pghero", "4.0.1"
 gem "pg_query", "~> 6"
 gem "google-protobuf", force_ruby_platform: true
 gem "puma"
