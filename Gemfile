@@ -1,7 +1,5 @@
 source "https://rubygems.org"
 
-ruby "4.0.7"
-
 gem "rails", "~> 8.1.0"
 gem "propshaft"
 gem "pg", force_ruby_platform: true
