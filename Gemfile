@@ -3,7 +3,7 @@ source "https://rubygems.org"
 gem "rails", "~> 8.1.0"
 gem "propshaft"
 gem "pg", force_ruby_platform: true
-gem "pghero", "4.0.1"
+gem "pghero", "4.1.0"
 gem "pg_query", "~> 6"
 gem "google-protobuf", force_ruby_platform: true
 gem "puma"

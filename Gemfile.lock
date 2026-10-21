@@ -194,7 +194,7 @@ GEM
     pg (1.6.3)
     pg_query (6.2.2)
       google-protobuf (>= 3.25.3)
-    pghero (4.0.1)
+    pghero (4.1.0)
       activerecord (>= 7.2)
     pp (0.6.3)
       prettyprint
@@ -299,7 +299,7 @@ DEPENDENCIES
   google-protobuf
   pg
   pg_query (~> 6)
-  pghero (= 4.0.1)
+  pghero (= 4.1.0)
   propshaft
   puma
   rails (~> 8.1.0)
@@ -373,7 +373,7 @@ CHECKSUMS
   os (1.1.4) sha256=57816d6a334e7bd6aed048f4b0308226c5fb027433b67d90a9ab435f35108d3f
   pg (1.6.3) sha256=1388d0563e13d2758c1089e35e973a3249e955c659592d10e5b77c468f628a99
   pg_query (6.2.2) sha256=316c194160ccfac8af9a7aff55cdc5b2d13bdd8bd8734976c6bddc477e779b6f
-  pghero (4.0.1) sha256=5fa794616065f030a9efc64b30ce34ee99f9cd7077e4d312322b7df3a9b7fa17
+  pghero (4.1.0) sha256=e8000515afa825171c27648a1deae267864e054348efe2720d9186c2d2dac3de
   pp (0.6.3) sha256=2951d514450b93ccfeb1df7d021cae0da16e0a7f95ee1e2273719669d0ab9df6
   prettyprint (0.2.0) sha256=2bc9e15581a94742064a3cc8b0fb9d45aae3d03a1baa6ef80922627a0766f193
   prism (1.9.0) sha256=7b530c6a9f92c24300014919c9dcbc055bf4cdf51ec30aed099b06cd6674ef85
