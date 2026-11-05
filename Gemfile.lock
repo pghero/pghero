@@ -77,7 +77,7 @@ GEM
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
       uri (>= 0.13.1)
-    addressable (2.9.0)
+    addressable (2.9.2)
       public_suffix (>= 2.0.2, < 8.0)
     aws-eventstream (1.3.2)
     aws-partitions (1.1107.0)
@@ -319,7 +319,7 @@ CHECKSUMS
   activerecord-nulldb-adapter (1.2.2) sha256=01e0b2e49af11ad56a92e274a3d8c9fb3c50a12a5460218c4c4b45355d9ef968
   activestorage (8.1.4.1) sha256=0f4e2f114f3584723a80a2c089aacc6170e765a0b2c385c9782e26ed78f05c66
   activesupport (8.1.4.1) sha256=16ac4f341ca65c85a1fcdb8ac73f68891aae9e3c4a6f9c3a27daed8b00017ed7
-  addressable (2.9.0) sha256=7fdf6ac3660f7f4e867a0838be3f6cf722ace541dd97767fa42bc6cfa980c7af
+  addressable (2.9.2) sha256=9117c7e7d6ee07230e75ce41fb9401ae55354dc654fcd0e862ba41d539e9a610
   aws-eventstream (1.3.2) sha256=7e2c3a55ca70d7861d5d3c98e47daa463ed539c349caba22b48305b8919572d7
   aws-partitions (1.1107.0) sha256=d66182a0d25d15478eb3accd32069894f99154a34e578f885ade00ef10a14540
   aws-sdk-cloudwatch (1.115.0) sha256=2fdc1d14fb56e0cf263f8e5cceb299724aa97573c404b3cae511079773ecb671
